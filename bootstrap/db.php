@@ -9,7 +9,7 @@ $app->set('database', function (Container $container) {
     $host = 'localhost'; // Hostname
     $username = 'root'; // MySQL username
     $password = ''; // MySQL password
-    $dbname = 'php_assignment'; // Database name
+    $dbname = 'fast-route-and-php-di'; // Database name
 
     // Create a new mysqli connection
     $mysqli = new mysqli($host, $username, $password, $dbname);
